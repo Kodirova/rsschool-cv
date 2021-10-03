@@ -1,0 +1,86 @@
+body {
+    padding: 10px;
+    background-color: #ddccff;
+    color: #303030;
+}
+.header .header_menu .menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 10px  40px;
+}
+.home h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: 	#303030;
+}
+a:hover{
+    color: #660066;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px;
+
+}
+.section .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about .title .me{
+    width: 30%;
+    height: 30%;
+}
+.title .title_items{
+    margin: 10px 40px;
+}
+.section .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px;
+}
+.content-item{
+    align-items: center;
+    text-align: center;
+}
+.project-info .project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px;
+}
+.project-info{
+    margin: 10px 30px;
+}
+.project .project-img{
+    width: 500px;
+    height: 300px;
+}
+.project-info .see-project{
+    background-color: beige;
+    text-decoration: none;
+    padding: 10px;
+}
+.project-info .see-project:hover{
+    background-color: mediumpurple;
+}
+footer{
+    background-color: #FFE5FF;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-content a{
+    margin: 20px 40px;
+}
